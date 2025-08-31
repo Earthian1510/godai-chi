@@ -44,7 +44,7 @@ function displayLogs(){
     fetch(`${api}/activity`)
     .then((res) => res.json())
     .then((data) => {
-        console.log(data)
+        
         if(data.length > 0){
             for(let i = 0; i < data.length; i++){
                 const card = document.createElement('div')
