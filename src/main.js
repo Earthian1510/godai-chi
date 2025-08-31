@@ -32,7 +32,7 @@ function header(){
 
 function heroImage(){
     const img = document.createElement('img')
-    img.src = './asset/images/kensei.png'
+    img.src = '/asset/images/kensei.png'
     return img
 }
 
