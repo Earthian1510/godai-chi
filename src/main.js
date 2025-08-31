@@ -1,6 +1,7 @@
 import './style.css'
 import { addActivityForm } from './components/addActivityForm'
 import { activityLog } from './components/activityLog'
+import kenseiImage from '../asset/images/kensei.png'
 
 const root = document.getElementById('app')
 
@@ -32,7 +33,7 @@ function header(){
 
 function heroImage(){
     const img = document.createElement('img')
-    img.src = '/asset/images/kensei.png'
+    img.src = kenseiImage
     return img
 }
 
